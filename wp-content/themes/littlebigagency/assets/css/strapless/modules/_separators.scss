@@ -1,0 +1,10 @@
+.separator-dotted {
+	background-image: linear-gradient(to right, black 30%, rgba(255,255,255,0) 0%);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-size: 9px 3px;
+	border: none;
+	position: absolute;
+	top: 1.9em;
+	@include size(100%, 3px);
+}

@@ -1,0 +1,183 @@
+@mixin backface($backface) {
+  -webkit-backface-visibility: $backface;
+     -moz-backface-visibility: $backface;
+          backface-visibility: $backface;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Border
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin border-radius($size: 9px) {
+  -webkit-border-radius: $size;
+     -moz-border-radius: $size;
+      -ms-border-radius: $size;
+       -o-border-radius: $size;
+          border-radius: $size;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Box-shadow
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin box-shadow($shadow: 3px 3px 0 $inshared-shadow-color) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Clearfix
+ * ----------------------------------------------------------------------------------------
+ */
+// Source: http://nicolasgallagher.com/micro-clearfix-hack/
+//
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+//    contenteditable attribute is included anywhere else in the document.
+//    Otherwise it causes space to appear at the top and bottom of elements
+//    that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+//    `:before` to contain the top-margins of child elements.
+@mixin cf() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Fontface
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin fontface-eot($fontname, $fontfile) {
+  @font-face {
+    font-family: $fontname;
+    src: url('../fonts/#{$fontfile}.eot');
+    src: url('../fonts/#{$fontfile}.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+@mixin fontface-woff($fontname, $fontfile) {
+  @font-face {
+    font-family: $fontname;
+    src: url('../fonts/#{$fontfile}.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+@mixin fontface-ttf($fontname, $fontfile) {
+  @font-face {
+    font-family: $fontname;
+    src: url('../fonts/#{$fontfile}.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+@mixin fontface-svg($fontname, $fontfile) {
+  @font-face {
+    font-family: $fontname;
+    src: url('../fonts/#{$fontfile}.svg##{$fontfile}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Placeholders
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin placeholder($color: #ddd) {
+  &::-webkit-input-placeholder { /* WebKit browsers */
+    color:    $color;
+  }
+  &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    $color;
+  }
+  &::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    $color;
+  }
+  &:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    $color;
+  }
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Selection
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin selection($background-color: #ffd1e7) {
+  ::selection {
+    background: $background-color;
+  }
+  ::-moz-selection {
+    background: $background-color;
+  }
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Sizing
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin size($width, $height) {
+  width: $width; height: $height;
+}
+@mixin square($size) {
+  width: $size; height: $size;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Transform
+ * ----------------------------------------------------------------------------------------
+ */
+ @mixin transform($transform) {
+  -webkit-transform: $transform; /* Opera, Chrome, and Safari */
+     -moz-transform: $transform; /* Firefox */
+      -ms-transform: $transform; /* IE 9 */
+          transform: $transform;
+ }
+
+ /**
+  * ----------------------------------------------------------------------------------------
+  * Transition
+  * ----------------------------------------------------------------------------------------
+  */
+  @mixin transition($duration, $type) {
+    -webkit-transition: $duration $type;
+       -moz-transition: $duration $type;
+         -o-transition: $duration $type;
+            transition: $duration $type;
+  }
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * User-select
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin user-select($toggle: none) {
+  -webkit-user-select: $toggle;
+   -khtml-user-select: $toggle;
+     -moz-user-select: $toggle;
+       -o-user-select: $toggle;
+          user-select: $toggle;
+}

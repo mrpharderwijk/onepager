@@ -1,0 +1,57 @@
+article {
+	figure {
+		margin: 0;
+		overflow: hidden;
+		position: relative;
+		@include backface(hidden);
+
+		a {
+			display: block;
+
+			img {
+				width: 100%;
+				webkit-transition: -webkit-transform 0.4s;
+				-moz-transition: -moz-transform 0.4s;
+				transition: transform 0.4s;
+			}
+		}
+
+		figcaption {
+			background: $primary-color;
+			bottom: 0;
+			display: block;
+			opacity: 0;
+			padding: 17px 20px;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+
+			-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+			   -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+					transition: transform 0.4s, opacity 0.1s 0.3s;
+
+			@include backface(hidden);
+			@include transform(translateY(100%));
+		}
+
+		&:hover {
+			img {
+				-moz-transform: translateY(-50px);
+				-ms-transform: translateY(-50px);
+				-webkit-transform: translateY(-50px);
+				transform: translateY(-50px)
+		  	}
+
+			figcaption {
+			  opacity: 1;
+			  -moz-transform: translateY(0px);
+			  -ms-transform: translateY(0px);
+			  -webkit-transform: translateY(0px);
+			  transform: translateY(0px);
+			  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+			  -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+			  transition: transform 0.4s, opacity 0.1s;
+			}
+		}
+	}
+}

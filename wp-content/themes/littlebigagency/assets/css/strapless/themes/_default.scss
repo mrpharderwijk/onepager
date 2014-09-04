@@ -1,0 +1,30 @@
+$primary-color		: #3a3a3a;
+$secondary-color	: #e5dac6;
+$tertiary-color		: #494949;
+
+$primary-logo-color 	: #96d0d1;
+$secondary-logo-color	: #f86464;
+$tertiary-logo-color	: $secondary-color;
+
+$default-white		: #ffffff;
+
+$primary-font		: "lato-lig", Helvetica, Arial, sans-serif;
+$secondary-font		: "lato-lig", Helvetica, Arial, sans-serif;
+$tertiary-font		: "lato-lig", Helvetica, Arial, sans-serif;
+
+.t-primary-logo-color {
+	color: $primary-logo-color;
+}
+.t-secondary-logo-color {
+	color: $secondary-logo-color;
+}
+
+.t-primary-background-color {
+	background-color: $primary-logo-color;
+}
+.t-secondary-background-color {
+	background-color: $secondary-logo-color;
+}
+.t-tertiary-background-color {
+	background-color: $tertiary-logo-color;
+}

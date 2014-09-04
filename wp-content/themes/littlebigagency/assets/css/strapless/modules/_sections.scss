@@ -1,0 +1,90 @@
+section {
+	margin: 50px auto 80px auto;
+
+	header {
+		padding-bottom: 15px;
+		position: relative;
+
+		h2 {
+		    position: relative;
+		    text-align: center;
+			width: 100%;
+			
+			&:before {
+				background: $tertiary-color;
+				bottom: 50%;
+				content: '';
+				display: block;
+				left: 0;
+				position: absolute;
+				top: 50%;
+				z-index: 1;
+				@include size(100%, 2px);
+			}
+			span { 
+				color: $secondary-logo-color;
+				display: inline-block;
+				font-family: $primary-font;
+			    margin: 0 auto;
+			    padding: 15px 20px;
+			    position: relative;
+			    z-index: 2;
+			}
+		}
+
+		h3 {
+			color: $primary-color;
+			display: inline-block;
+			font-family: $secondary-font;
+			font-size: 2em;
+			line-height: 1.3em;
+			margin: 0 0 20px 0;
+			padding: 0 20px 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			width: 100%;
+		}
+	}
+}
+
+footer section {
+	text-align: center;
+	
+	form {
+		margin: 0 auto;
+	}
+	p {
+		text-align: center;
+	}
+}
+
+
+
+.header-section {
+	background: url(../img/layout/header/1.jpg);
+	background-size: cover;
+	display: block;
+	position: relative;
+	margin: 0;
+	@include square(100%);
+
+	.inner-section {
+		position: absolute;
+		left: 0;
+		top: 30%;
+		width: 100%;
+
+		h1,
+		h2 {
+			color: $secondary-color;
+			font-family: $primary-font;
+		}
+		h1 {
+			font-size: 2.5em;
+			text-transform: uppercase;
+		}
+		h2 {
+			font-size: 2em;
+		}
+	}
+}

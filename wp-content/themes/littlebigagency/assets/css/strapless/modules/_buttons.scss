@@ -1,0 +1,9 @@
+.btn-default {
+	border: 3px solid $primary-color;
+
+	&:hover {
+		background-color: $primary-color;
+		border: 3px solid $primary-color;
+		color: $tertiary-color;
+	}
+}

@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------- *\
+	BOOTSTRAP VARIABLES OWERWRITES/ADDITIONS
+\* ------------------------------------------------------------- */
+// Font path for glyphicons
+$icon-font-path: "../fonts/glyphicons/" !default;
+
+// Tiny screen / iphone smallest
+$screen-ty:					320px !default;
+$screen-ty-min:				$screen-ty !default;
+$screen-tiny:				$screen-ty-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-ty-max:				 ($screen-xs-min - 1) !default;
+
+/* ------------------------------------------------------------- *\
+	FONTAWESOME VARIABLES OWERWRITES/ADDITIONS
+\* ------------------------------------------------------------- */
+$fa-font-path:        "../fonts/fontawesome" !default;
