@@ -1,0 +1,9 @@
+.btn-group-jumbotron {
+	.btn-default {
+		padding: 15px 30px;
+	}
+	.btn:first-child {
+		margin-right: 20px;
+		@include border-radius(4px);
+	}
+}

@@ -1,0 +1,411 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * Frame
+ * ----------------------------------------------------------------------------------------
+ */
+.l-body {
+  position: relative;
+  
+  .l-viewport {
+    height: 100%;
+
+    .l-header {
+      height: 100%;
+    }
+
+    .l-section {
+      @extend .container;
+    }
+
+    .l-section-fluid {
+      @extend .container-fluid;
+    }
+
+    footer {
+      border-top: 10px solid $primary-color;
+      padding-top: 20px;
+    }
+
+  }
+}
+
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Alignments
+ * ----------------------------------------------------------------------------------------
+ */
+
+// Floating aligns
+.l-align-left {
+  @extend .pull-left;
+}
+.l-align-right {
+  @extend .pull-right;
+}
+
+// Used to place two div's next to eachother
+// [ul]
+// [li 1] [li 2] <--- horizontal aligned
+// [/ul]
+// [li 1] will have a fixed width and a float, this div will get a predefined width and a l-align-left/right
+// [li 2] will have a full width and no floats, this div will get this class
+.l-align-full {
+  display: block;
+  overflow: hidden;
+  width: auto;
+}
+
+// These helpers are used to make it easier to place two div's next to eachother
+// only thing you need to do is give the first-child a fixed width
+.l-align-full-right {
+  @extend .l-position-relative;
+  li:first-child {
+    float: right;
+  }
+  li:first-child + li {
+    padding-right: 5px;
+    @extend .l-align-full;
+  }
+}
+.l-align-full-left {
+  li:first-child {
+    float: left;
+  }
+  li:first-child + li {
+    padding-left: 5px;
+    @extend .l-align-full;
+  }
+}
+
+// Text align
+.l-align-txt-center {
+  text-align: center;
+  > * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.l-align-txt-left {
+  text-align: left;
+}
+.l-align-txt-right {
+  text-align: right !important;
+}
+
+// Vertical align
+.l-valign-middle{
+  vertical-align: middle;
+}
+.l-valign-top {
+  vertical-align: top;
+}
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Clearfix
+ * ----------------------------------------------------------------------------------------
+ */
+.l-clearfix {
+  @include cf();
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Displays
+ * ----------------------------------------------------------------------------------------
+ */
+.l-display-block {
+  display: block;
+}
+.l-display-inline {
+  display: inline;
+}
+.l-display-inline-block {
+  display: inline-block;
+}
+.l-display-table {
+  display: table;
+}
+.l-display-tablecell {
+  display: table-cell;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Margins
+ * ----------------------------------------------------------------------------------------
+ */
+
+// Center
+.l-margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Lower
+.l-margin-bottom-xs {
+  margin-bottom: 5px;
+}
+.l-margin-bottom-sm {
+  margin-bottom: 10px;
+}
+.l-margin-bottom-md {
+  margin-bottom: 15px;
+}
+.l-margin-bottom-lg {
+  margin-bottom: 20px;
+}
+.l-margin-bottom-xl {
+  margin-bottom: 30px;
+}
+.l-margin-bottom-xxl {
+  margin-bottom: 50px;
+}
+
+// Left
+.l-margin-left-xs {
+  margin-left: 5px;
+}
+.l-margin-left-sm {
+  margin-left: 10px;
+}
+.l-margin-left-md {
+  margin-left: 15px;
+}
+.l-margin-left-lg {
+  margin-left: 20px;
+}
+.l-margin-left-xl {
+  margin-left: 30px;
+}
+.l-margin-left-xxl {
+  margin-left: 50px;
+}
+
+// Right
+.l-margin-right-xs {
+  margin-right: 5px;
+}
+.l-margin-right-sm {
+  margin-right: 10px;
+}
+.l-margin-right-md {
+  margin-right: 15px;
+}
+.l-margin-right-lg {
+  margin-right: 20px;
+}
+.l-margin-right-xl {
+  margin-right: 30px;
+}
+.l-margin-right-xxl {
+  margin-right: 50px;
+}
+
+// Top
+.l-margin-top-xs {
+  margin-top: 5px;
+}
+.l-margin-top-sm {
+  margin-top: 10px;
+}
+.l-margin-top-md {
+  margin-top: 15px;
+}
+.l-margin-top-lg {
+  margin-top: 20px;
+}
+.l-margin-top-xl {
+  margin-top: 30px;
+}
+.l-margin-top-xxl {
+  margin-top: 35px;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Padding
+ * ----------------------------------------------------------------------------------------
+ */
+
+// All
+.l-padding-all-xs {
+  padding: 5px;
+}
+.l-padding-all-sm {
+  padding: 10px;
+}
+.l-padding-all-md {
+  padding: 15px;
+}
+.l-padding-all-lg {
+  padding: 20px;
+}
+.l-padding-all-xl {
+  padding: 25px;
+}
+.l-padding-all-xxl {
+  padding: 35px;
+}
+
+// Left
+.l-padding-left-xs {
+  padding-left: 5px;
+}
+.l-padding-left-sm {
+  padding-left: 10px;
+}
+.l-padding-left-md {
+  padding-left: 15px;
+}
+.l-padding-left-lg {
+  padding-left: 20px;
+}
+.l-padding-left-xl {
+  padding-left: 25px;
+}
+.l-padding-left-xxl {
+  padding-left: 35px;
+}
+
+// Right
+.l-padding-right-xs {
+  padding-right: 5px;
+}
+.l-padding-right-sm {
+  padding-right: 10px;
+}
+.l-padding-right-md {
+  padding-right: 15px;
+}
+.l-padding-right-lg {
+  padding-right: 20px;
+}
+.l-padding-right-xl {
+  padding-right: 25px;
+}
+.l-padding-right-xxl {
+  padding-right: 35px;
+}
+
+// Top
+.l-padding-top-xs {
+  padding-top: 5px;
+}
+.l-padding-top-sm {
+  padding-top: 10px;
+}
+.l-padding-top-md {
+  padding-top: 15px;
+}
+.l-padding-top-lg {
+  padding-top: 20px;
+}
+.l-padding-top-xl {
+  padding-top: 25px;
+}
+.l-padding-top-xxl {
+  padding-top: 35px;
+}
+
+// Left & Right
+.l-padding-lr-xs {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.l-padding-lr-sm {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.l-padding-lr-md {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.l-padding-lr-lg {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.l-padding-lr-xl {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.l-padding-lr-xxl {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Positioning
+ * ----------------------------------------------------------------------------------------
+ */
+.l-position-absolute {
+  position: absolute !important;
+}
+.l-position-fixed {
+  position: fixed !important;
+}
+.l-position-relative {
+  position: relative !important;
+}
+.l-position-static {
+  position: static !important;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Heights
+ * ----------------------------------------------------------------------------------------
+ */
+.l-height-full {
+  height: 100%;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Reset
+ * ----------------------------------------------------------------------------------------
+ * This has to be overwritten! So very important ;)
+ */
+.l-reset {
+  background-color: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Tablelist
+ * ----------------------------------------------------------------------------------------
+ * This can be set on an unordered list, the li's will fill up 100%;
+ */
+.l-tablelist {
+  display: table;
+  width: 100%;
+
+  > li {
+    float: none !important;
+    display: table-cell;
+  }
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Widths
+ * ----------------------------------------------------------------------------------------
+ */
+.l-width-full {
+  width: 100%;
+}

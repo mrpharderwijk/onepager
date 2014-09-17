@@ -1,0 +1,39 @@
+.btn {
+	padding: 15px 35px;
+}
+.btn-default {
+	background-color: $brand-primary;
+	text-transform: uppercase;
+	@include border-radius(4px);
+	@include font-lato-regular(1em, 1em, normal);
+}
+
+.btn-primary {
+	background-color: transparent;
+	border: 2px solid $brand-bright;
+	color: $brand-bright;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	@include border-radius(4px);
+	@include font-lato-regular(1em, 1em, normal);
+	@include transition(all 0.5s);
+
+	&:hover {
+		background-color: $brand-primary;
+		border: 2px solid $brand-primary;
+		color: $brand-bright;
+	}
+}
+
+.btn-secondary {
+	border: none;
+	background-color: transparent;
+	color: $brand-secondary;
+	padding: 0;
+	@include font-courgette(2.5em, 1em, normal);
+	&:before {
+		content: "\00BB";
+		margin-right: 5px;
+	}
+}

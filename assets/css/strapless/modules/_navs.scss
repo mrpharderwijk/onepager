@@ -1,0 +1,53 @@
+.navbar {
+	bottom: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin: 0;
+	position: absolute;
+	@include size(100%, 80px);
+	@include transition(all 0.3s ease-in-out);
+
+	.navbar-brand {
+		height: 56px;
+		padding: 0;
+	}
+	
+	.navbar-nav {
+		margin-top: 10px;
+
+		> li { 
+			margin-right: 10px;
+			
+			> a {
+				color: $brand-bright;
+				padding: 10px 15px;
+				@include font-lato-regular(1em, 1em, normal);
+
+				&:hover {
+					background-color: transparent;
+					color: $brand-primary;
+				}
+				&:first-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	li.active {
+		background-color: $brand-primary;
+		border: 2px solid $brand-primary;
+		@include border-radius(4px);
+
+		&:hover {
+			background-color: transparent;
+			border: 2px solid $brand-bright;
+		}
+	}
+
+	&.affix {
+		background-color: $brand-contrast;
+		position: fixed !important;
+		top: 0;
+	}
+}

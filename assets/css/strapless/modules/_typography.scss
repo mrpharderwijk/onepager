@@ -1,0 +1,13 @@
+@include fontface-ttf('cookie', 'cookie/Cookie-Regular');
+@include fontface-ttf('lato-regular', 'lato/Lato-Regular');
+@include fontface-ttf('lato-hairline', 'lato/Lato-Hairline');
+
+@mixin font-courgette($font-size: 1em, $line-height: 1em, $font-weight: 400) {
+	font: #{$font-weight} #{$font-size}/#{$line-height} 'cookie';
+}
+@mixin font-lato-regular($font-size: 1em, $line-height: 1em, $font-weight: 400) {
+	font: #{$font-weight} #{$font-size}/#{$line-height} 'lato-regular';
+}
+@mixin font-lato-hairline($font-size: 1em, $line-height: 1em, $font-weight: 400) {
+	font: #{$font-weight} #{$font-size}/#{$line-height} 'lato-hairline';
+}
