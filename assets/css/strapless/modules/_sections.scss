@@ -1,4 +1,15 @@
 section {
+
+	&#kenmerken,
+	&#portfolio,
+	&#mobiel,
+	&#tarieven,
+	&#over-ons,
+	&#call-to-action,
+	&#contact {
+		padding-bottom: 100px;
+		padding-top: 80px;
+	}
 	&#home {
 		background: $brand-contrast url(../img/webdesign-littlebigagency.jpg) no-repeat;
 		background-size: cover;
@@ -8,20 +19,176 @@ section {
 		width: 100%;
 		height: 100%;
 	}
+	&#kenmerken {
+		.section-content {
+			text-align: center;
+			@extend .col-lg-4;
+			@extend .col-md-6;
+			@extend .col-sm-12;
 
-	&#kenmerken,
-	&#portfolio,
-	&#mobiel,
-	&#tarieven,
-	&#over-ons,
-	&#contact {
-		padding-bottom: 80px;
-		padding-top: 80px;
+			&:nth-child(n+4) {
+				margin-top: 60px;
+			}
+
+			span {
+				border: 4px solid $brand-primary;
+				color: $brand-primary;
+				cursor: default;
+				display: inline-block;
+				font-size: 32pt;
+				line-height: 90px;
+				margin-bottom: 35px;
+				position: relative;
+				z-index: 1;
+				@include square(90px);
+				@include border-radius(50%);
+				@include transition(color .3s);
+
+				&:before {
+					display: block;
+					font-size: 32pt;
+					font-style: normal;
+					font-weight: 400;
+					font-variant: normal;
+					line-height: 86px;
+					speak: none;
+					text-transform: none;
+					-webkit-font-smoothing: antialiased;
+				}
+				&:after {
+					background: $brand-primary;
+					content: '';
+					left: -2px;
+					padding: 2px;
+					position: absolute;
+					top: -2px;
+					z-index: -1;
+					@include square(100%);
+					@include border-radius(50%);
+					@include box-sizing(content-box);
+					@include transform(scale(1.3));
+					@include opacity(0);
+
+					-webkit-transition: -webkit-transform .2s,opacity .3s;
+					-moz-transition: -moz-transform .2s,opacity .3s;
+					transition: transform .2s,opacity .3s;
+				}
+			}
+
+			&:hover {
+				span{
+					color: $brand-bright;
+
+					&:after {
+						@include transform(scale(1));
+							@include opacity(1);
+					}
+				}
+			}
+		}
+	}
+	&#portfolio {
+		background-color: $gray-dark;
+
+		.section-title {
+			h2 {
+				color: $brand-bright;
+
+				&:before,
+				&:after {
+					background-color: $brand-bright;
+				}
+			}
+		}
+		.section-portfolio {
+			float: none;
+			padding: 0 50px;
+			max-width: 960px;
+		}
+
+	}
+	&#mobiel {
+		.section-image {
+			@extend .col-sm-12;
+			@extend .col-md-4;
+		}
+		.section-content {
+			@extend .col-sm-12;
+			@extend .col-md-7;
+			@extend .col-md-offset-1;
+		}
+	}
+	&#tarieven {
+		background-color: $gray-dark;
+
+		.section-title {
+			h2 {
+				color: $brand-bright;
+
+				&:before,
+				&:after {
+					background-color: $brand-bright;
+				}
+			}
+		}
+		.section-content {
+			margin: 0 auto;
+			max-width: 600px;
+		}
+	}
+	&#over-ons {
+		.section-content {
+			text-align: center;
+			@extend .col-xs-12;
+		}
+	}
+	&#call-to-action {
+		background-color: $brand-secondary;
+
+		.section-content {
+			@extend .col-sm-12;
+			@extend .col-md-7;
+		}
+		.section-action {
+			@extend .l-txt-align-center;
+			@extend .col-sm-12;
+			@extend .col-md-4;
+			@extend .col-md-offset-1;
+		}
+	}
+
+
+	/* DEFAULT SECTION TITLE */
+	.section-title {
+		text-align: center;
+		margin-bottom: 40px;
+		padding-bottom: 15px;
+		position: relative;
+		@extend .col-xs-12;
+
+		h2 {
+			color: $brand-contrast;
+			@include font-lato-regular(2.5em);
+
+			&:before,
+			&:after {
+				background-color: $brand-contrast;
+				content: ' ';
+				display: block;
+				left: 50%;
+				margin-left: -50px;
+				position: absolute;
+				@include size(100px, 1px);
+			}
+			&:before {
+				bottom: 3px;
+			}
+			&:after {
+				bottom: 0px;
+			}
+		}
 	}
 
 	.section-content {
-		@extend .col-lg-4;
-		@extend .col-md-6;
-		@extend .col-sm-12;
 	}
 }

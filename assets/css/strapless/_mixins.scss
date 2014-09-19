@@ -26,6 +26,18 @@
 
 /**
  * ----------------------------------------------------------------------------------------
+ * Box-sizing
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin box-sizing($type: border-box) {
+  -webkit-box-sizing: $type;
+  -moz-box-sizing: $type;
+  box-sizing: $type;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
  * Clearfix
  * ----------------------------------------------------------------------------------------
  */
@@ -87,6 +99,21 @@
     font-weight: normal;
     font-style: normal;
   }
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Opacity
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin opacity($value: 0) {
+  -webkit-opacity: $value;
+   -khtml-opacity: $value;
+     -moz-opacity: $value;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{($value*100)})";
+          filter: alpha(opacity=#{($value*100)});
+          opacity: $value;
 }
 
 
@@ -157,6 +184,7 @@
   @mixin transition($transition) {
     -webkit-transition: $transition;
        -moz-transition: $transition;
+        -ms-transition: $transition;
          -o-transition: $transition;
             transition: $transition;
   }

@@ -2,7 +2,7 @@
 	$.fn.strapscroll = function (options) {
 		var defaults = {
 				navWrap: '.navbar',	// give the navigation container
-				scrollOffSet: 0,	// give the scrollOffset
+				scrollOffset: 0,	// give the scrollOffset
 				scrollSpeed: 1000,	// give the speed of scrolling
 				affixWrap: false	// if a affix is needed give the element id/class
 			},
@@ -25,21 +25,22 @@
 			if (settings.affixWrap) {
 				var affixEl = jQuery(settings.affixWrap),
 					affixOffset = affixEl.outerHeight();
+					console.log(affixOffset);
 
 				navEl.affix({
 					offset: {
-						top: affixOffset
+						top: affixOffset - 80
 					}
 				});
 			}
 
-      this.scrollToID = function(id, speed) {
-  			var targetOffset = jQuery(id).offset().top;
+      	this.scrollToID = function(id, speed) {
+	  		var targetOffset = jQuery(id).offset().top;
 
-        jQuery('html, body').animate({
-					scrollTop: targetOffset
-				}, speed);
-      };
+	        jQuery('html, body').animate({
+				scrollTop: targetOffset - settings.scrollOffset
+			}, speed);
+      	};
     });
 		// returns the jQuery object to allow for chainability.
 		return this;

@@ -5,8 +5,12 @@
 	margin: 0;
 	position: absolute;
 	@include size(100%, 80px);
-	@include transition(all 0.3s ease-in-out);
+	@include transition(all 0.5s ease-in-out);
 
+	&.affix {
+		background-color: rgb(58, 58, 58) transparent !important;
+		background-color: rgba(58, 58, 58, 0.9) !important;
+	}
 	.navbar-brand {
 		height: 56px;
 		padding: 0;
@@ -16,12 +20,14 @@
 		margin-top: 10px;
 
 		> li { 
+			border: 2px solid transparent;
 			margin-right: 10px;
 			
 			> a {
 				color: $brand-bright;
 				padding: 10px 15px;
 				@include font-lato-regular(1em, 1em, normal);
+				@include transition(all 0.5s);
 
 				&:hover {
 					background-color: transparent;
@@ -35,13 +41,18 @@
 	}
 
 	li.active {
-		background-color: $brand-primary;
-		border: 2px solid $brand-primary;
+		background-color: transparent;
+		border: 2px solid $brand-bright;
+		color: $brand-secondary;
 		@include border-radius(4px);
+		@include transition(all 0.5s);
 
 		&:hover {
-			background-color: transparent;
-			border: 2px solid $brand-bright;
+			border: 2px solid $brand-primary;
+
+			> a {
+				color: $brand-bright;
+			}
 		}
 	}
 

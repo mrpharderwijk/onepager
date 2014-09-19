@@ -18,11 +18,13 @@
 	@include border-radius(4px);
 	@include font-lato-regular(1em, 1em, normal);
 	@include transition(all 0.5s);
+	@include opacity(0.7);
 
 	&:hover {
-		background-color: $brand-primary;
-		border: 2px solid $brand-primary;
+		background-color: transparent;
+		border: 2px solid $brand-bright;
 		color: $brand-bright;
+		@include opacity(1);
 	}
 }
 
@@ -30,10 +32,16 @@
 	border: none;
 	background-color: transparent;
 	color: $brand-secondary;
-	padding: 0;
+	padding: 0 3px 0 0;
 	@include font-courgette(2.5em, 1em, normal);
+	@include transition(all 0.5s);
+	
 	&:before {
 		content: "\00BB";
 		margin-right: 5px;
+	}
+
+	&:hover {
+		color: $brand-bright;
 	}
 }

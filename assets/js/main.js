@@ -1,13 +1,26 @@
-console.log($(window).scroll());
-
+/* ----------------------------------------------------------------------------------- *\
+      	BOOTSTRAP - Enable ScrollSpy
+\* ----------------------------------------------------------------------------------- */
+jQuery('body').scrollspy({ target: '.navbar', offset: 100 });
 
 /* ----------------------------------------------------------------------------------- *\
-      Smooth scrolling for bootstrap single-page website
+      	LittleBigAgency - Smooth scrolling for bootstrap single-page website
 \* ----------------------------------------------------------------------------------- */
 jQuery('#nav').strapscroll({
 	navWrap: '#nav',
 	affixWrap: '.l-header',
-	scrollOffSet: jQuery('#nav').outerHeight()
+	scrollOffset: jQuery('#nav').outerHeight()
 });
 
-jQuery('body').scrollspy({ target: '.navbar', scrollOffSet: +100 });
+/* ----------------------------------------------------------------------------------- *\
+		OWL-carousel
+\* ----------------------------------------------------------------------------------- */
+$(document).ready(function() {
+	$("#owl-example").owlCarousel({
+		items: 1,
+		singleItem: true,
+		pagination: false,
+		navigation: true,
+		navigationText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>']
+	});
+});
