@@ -30,10 +30,10 @@
 					<div class="container">
 						<!-- <h1>Origneel, betaalbaar en snel uw website online</h1> -->
 						<h1>Uw website betaalbaar en snel online</h1>
-						<p>Geschikt voor mobiel, tablet en desktop</p>
+						<h2>Geschikt voor mobiel, tablet en desktop</h2>
 						<div class="btn-group-jumbotron">
-							<button type="button" class="btn btn-primary">bestellen</button>
-							<a href="#kenmerken" class="btn btn-secondary strapscroll">lees meer</a>
+							<a href="#tarieven" class="btn btn-primary scroll-to-id">prijzen</button>
+							<a href="#kenmerken" class="btn btn-secondary scroll-to-id">lees meer</a>
 						</div>
 					</div>
 				</div>
@@ -42,35 +42,38 @@
 			<nav class="navbar navbar-static-top" role="navigation" id="nav">
 				<div class="container">
 		        	<div class="navbar-header">
-		          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-				            <span class="fa fa-bars"></span>
+		          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+							<span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
 		         		</button>
-		          		<a class="navbar-brand strapscroll" href="#home">
+		          		<a class="navbar-brand scroll-to-id" href="#home">
 		          			<img src="assets/img/littlebigagency-logo-small.png" alt="little big agency logo">
 		          		</a>
 	        		</div>
-			        <div class="navbar-collapse collapse">
+			        <div id="main-menu" class="navbar-collapse collapse">
 			          	<ul class="nav navbar-nav navbar-right">
 			          		<li>
-			          			<a href="#home" class="strapscroll"><span class="fa fa-home"></span></a>
+			          			<a href="#home" class="scroll-to-id"><span class="fa fa-home"></span></a>
 			          		</li>
 				            <li>
-				            	<a href="#kenmerken" class="strapscroll">kenmerken</a>
+				            	<a href="#kenmerken" class="scroll-to-id">kenmerken</a>
 				            </li>
 				            <li>
-				            	<a href="#portfolio" class="strapscroll">portfolio</a>
+				            	<a href="#portfolio" class="scroll-to-id">portfolio</a>
 				            </li>
 				            <li>
-				            	<a href="#mobiel" class="strapscroll">mobiel</a>
+				            	<a href="#mobiel" class="scroll-to-id">mobiel</a>
 				            </li>
 				            <li>
-				            	<a href="#tarieven" class="strapscroll">tarieven</a>
+				            	<a href="#tarieven" class="scroll-to-id">tarieven</a>
 				            </li>
 				            <li>
-				            	<a href="#over-ons" class="strapscroll">over ons</a>
+				            	<a href="#over-ons" class="scroll-to-id">over ons</a>
 				            </li>
 				            <li>
-				            	<a href="#contact" class="strapscroll">contact</a>
+				            	<a href="#contact" class="scroll-to-id">contact</a>
 				            </li>
 			          	</ul>
 			        </div><!--/.nav-collapse -->
@@ -78,9 +81,9 @@
 			</nav>
 	    </header>
 
-		<section class="l-section" id="kenmerken">
+		<section class="l-section container-sm-height" id="kenmerken">
 			<div class="row">
-				<header class="section-title">
+				<header class="section-header">
 					<h2>Onze Kenmerken</h2>
 				</header>
 			</div>
@@ -95,6 +98,7 @@
 					<h3>Snel online</h3>
 					<p>We zorgen dat je website binnen twee weken klaar is en online staat.</p>
 				</div>
+				<div class="clearfix visible-md"></div>
 				<div class="section-content">
 					<span class="fa fa-binoculars"></span>
 					<h3>Google vriendelijk </h3>
@@ -120,7 +124,7 @@
 
 		<section class="l-section-fluid" id="portfolio">
 			<div class="row">
-				<header class="section-title">
+				<header class="section-header">
 					<h2>Portfolio</h2>
 					<p>Onze chefs laten zich graag inspireren door je favoriete bestaande website(s). Naast dat we direct weten wat je mooi vindt gaat er geen kostbare tijd verloren aan een langdurig designproces.</p>
 				</header>
@@ -128,32 +132,20 @@
 			<div class="row l-txt-align-center">
 				<div class="section-portfolio">
 					<div id="owl-example" class="owl-carousel">
-						<div class="panel panel-default">
-							<div class="panel-heading">Panel heading without title</div>
-							<div class="panel-body">
-								Panel content
-							</div>
+						<div>
+							<img src="/assets/img/content/koedijkbouw-portfolio-800x755.png" alt="" class="img-responsive">
 						</div>
 
-						<div class="panel panel-default">
-							<div class="panel-heading">Panel heading without title</div>
-							<div class="panel-body">
-								Panel content
-							</div>
+						<div>
+							<img src="/assets/img/content/villazuidoost-portfolio-800x755.png" alt="" class="img-responsive">
 						</div>
 
-						<div class="panel panel-default">
-							<div class="panel-heading">Panel heading without title</div>
-							<div class="panel-body">
-								Panel content
-							</div>
+						<div>
+							<img src="/assets/img/content/docunet-portfolio-800x755.png" alt="" class="img-responsive">
 						</div>
 
-						<div class="panel panel-default">
-							<div class="panel-heading">Panel heading without title</div>
-							<div class="panel-body">
-								Panel content
-							</div>
+						<div>
+							<img src="/assets/img/content/youpitch-portfolio-800x755.png" alt="" class="img-responsive">
 						</div>
 					</div>
 				</div>
@@ -162,7 +154,7 @@
 
 		<section class="l-section" id="mobiel">
 			<div class="row">
-				<header class="section-title">
+				<header class="section-header">
 					<h2>Mobiel / Tablet / Desktop</h2>
 					<p>Een website die slecht te bekijken is op een mobiel apparaat kan tegenwoordig echt niet meer. Naast dat het je klanten kan kosten geeft het een zeer onprofessionele indruk.</p>
 				</header>
@@ -182,7 +174,7 @@
 
 		<section class="l-section-fluid" id="tarieven">
 			<div class="row">
-				<header class="section-title">
+				<header class="section-header">
 					<h2>Tarieven</h2>
 					<p>Iedere website bevat standaard de onderstaande voordelen en kenmerken. Heb je behoefte aan meer pagina ontwerpen of misschien andere functionaliteiten? Stuur ons dan even een e-mail.</p>
 				</header>
@@ -190,25 +182,44 @@
 			<div class="row l-text-align-center">
 				<div class="section-content">
 					<div class="panel panel-default">
-						<div class="panel-heading">&euro; 800,-</div>
+						<header class="panel-heading">
+							<h3>Entreekosten &euro; <span class="entree-kosten">499</span>,-</h3>
+						</header>
 						<div class="panel-body">
 							<ul class="list-group">
-								<li class="list-group-item">12 maanden supersnelle hosting</li>
-								<li class="list-group-item">12 maanden service & onderhoud</li>
-								<li class="list-group-item">3 pagina ontwerpen</li>
-								<li class="list-group-item">Plaatsen van teksten en beelden</li>
-								<li class="list-group-item">Uitgebreide statistieken</li>
-								<li class="list-group-item">Makkelijk systeem voor het beheren van uw content</li>
+								<li class="list-group-item">
+									<span class="fa fa-check"></span> 12 maanden supersnelle hosting
+								</li>
+								<li class="list-group-item">
+									<span class="fa fa-check"></span> 12 maanden service & onderhoud
+								</li>
+								<li class="list-group-item">
+									<span class="fa fa-check"></span> 3 pagina ontwerpen
+								</li>
+								<li class="list-group-item">
+									<span class="fa fa-check"></span> Plaatsen van teksten en beelden
+								</li>
+								<li class="list-group-item">
+									<span class="fa fa-check"></span> Uitgebreide statistieken
+								</li>
+								<li class="list-group-item cmn-toggle-1">
+									<span class="fa fa-check"></span> Makkelijk systeem voor het beheren van uw content
+								</li>
 							</ul>
 						</div>
 					</div>
+					<div class="switch clearfix">
+						<input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
+						<label for="cmn-toggle-1" class="pull-left"></label>
+						<span class="pull-left l-margin-left-md l-margin-top-sm">incl. CMS</span>
+					</div>						
 				</div>
 			</div>
 		</section>
 
 		<section class="l-section" id="over-ons">
 			<div class="row">
-				<header class="section-title">
+				<header class="section-header">
 					<h2>Over Ons</h2>
 				</header>
 			</div>
@@ -222,10 +233,10 @@
 		<section class="l-section-fluid" id="call-to-action">
 			<div class="row">
 				<div class="container">
-					<div class="section-content">
-						<h3>Overtuigd? Wacht dan niet langer en zet ons aan het werk voor uw website!</h3>
-						<p>Wij nemen de eerst volgende werkdag contact met je op om de details van uw opdracht te bespreken.</p>
-					</div>
+					<header class="section-content">
+						<h2>Neem nu contact met ons op!</h2>
+						<p>Wij nemen de eerst volgende werkdag contact met je op om de details van de opdracht te bespreken.</p>
+					</header>
 					<div class="section-action">
 						<a href="#" class="btn btn-default">bestellen</a>
 					</div>
@@ -235,13 +246,38 @@
 
 		<section class="l-section" id="contact">
 			<div class="row">
-				<header class="section-title">
+				<header class="section-header">
 					<h2>Contact</h2>
+					<p>Heb je een vraag of wil je ons gewoon een berichtje sturen? Vul dan ons contactformulier in.</p>
 				</header>
 			</div>
 			<div class="row">
 				<div class="section-content">
-					<p>Heb je een vraag of wil je ons gewoon een berichtje sturen? Vul dan ons contactformulier in.</p>
+					<form class="contact-formulier" role="form">
+						<div class="form-group">
+							<label for="naam">Je naam</label>
+							<input type="naam" class="form-control" placeholder="Voer je voornaam in">
+						</div>
+						<div class="form-group">
+							<label for="email">Je e-mailadres</label>
+							<input type="email" class="form-control" placeholder="voer hier je e-mailadres in">
+						</div>
+						<div class="form-group">
+							<label for="onderwerp">Onderwerp</label>
+							<select id="onderwerp" class="form-control">
+								<option>- selecteer -</option>
+								<option>Ik wil een website zonder CMS</option>
+								<option>Ik wil een website met CMS</option>
+								<option>Gewoon een berichtje</option>
+								<option>Ik heb een vraag</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="bericht">Jouw bericht</label>
+							<textarea id="bericht" class="form-control" rows="5"></textarea>
+						</div>
+						<button type="submit" class="btn btn-default">Verzenden</button>
+					</form>
 				</div>
 			</div>
 		</section>
@@ -252,7 +288,9 @@
 	</div>
 
 	<script src="assets/js/jquery/jquery-2.1.1.js" type="text/javascript"></script>
-	<script src="assets/js/jquery/jquery-strapscroll.js" type="text/javascript"></script>
+	<script src="assets/js/jquery-scrolltoid/jquery.scrolltoid.js" type="text/javascript"></script>
+	<script src="assets/js/jquery-scrollaffix/jquery.scrollaffix.js" type="text/javascript"></script>
+	<script src="assets/js/sidr-menu/jquery.sidr.min.js" type="text/javascript"></script>
 	<script src="assets/js/owl-carousel/owl.carousel.js" type="text/javascript"></script>
 	<script src="assets/js/bootstrap/bootstrap.js"></script>
 	<script src="assets/js/main.js"></script>

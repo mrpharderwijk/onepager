@@ -1,0 +1,39 @@
+.panel {}
+
+.panel-default {
+	border: none;
+	margin: 0 auto;
+	max-width: 280px;
+
+	.panel-heading {
+		background: $brand-secondary;
+		padding: 20px;
+		text-align: center;
+
+		h3 {
+			color: $brand-contrast;
+			margin: 0;
+		}
+	}
+	.panel-body {
+		.list-group {
+			max-width: 320px;
+
+			.list-group-item {
+				border: none;
+				padding-left: 50px;
+				position: relative;
+
+				.fa,
+				.icon {
+					color: $brand-success;
+					font-size: 1.3em;
+					left: 15px;
+					margin-right: 20px;
+					position: absolute;
+					top: 10px;
+				}
+			}
+		}
+	}
+}

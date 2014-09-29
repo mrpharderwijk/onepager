@@ -16,8 +16,7 @@
 @import 'third-party/bootstrap/bootstrap';
 @import 'third-party/fontawesome/font-awesome';
 @import 'third-party/owl-carousel/owl-carousel';
-@import 'third-party/owl-carousel/owl-transitions';
-@import 'third-party/owl-carousel/owl-theme';
+@import 'third-party/sidr-menu/sidr-light';
 
 
 /* ----------------------------------------------------------------------------------------
@@ -91,7 +90,9 @@
  @import 'modules/_button-groups'; 
  @import 'modules/_forms';
  @import 'modules/_jumbotron';
+ @import 'modules/_list-groups';
  @import 'modules/_navs';
+ @import 'modules/_panels';
  @import 'modules/_responsive-utilities';
  @import 'modules/_sections';
  @import 'modules/_separators';
@@ -109,3 +110,6 @@
  *  States are usually prefixed with 'is-'...
  */
  @import '_state';
+
+
+@import 'third-party/cmn-toggle/_cmn-toggle';

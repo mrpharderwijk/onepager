@@ -1,21 +1,99 @@
 .navbar {
-	bottom: 0;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin: 0;
-	position: absolute;
+	position: fixed;
+	top: 0;
 	@include size(100%, 80px);
-	@include transition(all 0.5s ease-in-out);
+	@include transition(height 0.5s ease-in-out);
 
 	&.affix {
 		background-color: rgb(58, 58, 58) transparent !important;
 		background-color: rgba(58, 58, 58, 0.9) !important;
 	}
-	.navbar-brand {
-		height: 56px;
-		padding: 0;
+	&.menu-open {
+		@media screen and (max-width: $screen-xs-max) {
+			background: $brand-contrast;
+			height: 100%;
+		}
 	}
+}
 	
+/* TOGGLE */
+.navbar-toggle {
+	@include size(44px, 47px);
+
+	.icon-bar {
+		background: $brand-primary;
+		position: absolute;
+		margin: 0;
+	}
+
+	.icon-bar:first-child {
+		top: 13px;
+	}
+	.icon-bar:first-child + .icon-bar {
+		top: 18px;
+	}
+	.icon-bar:first-child + .icon-bar + .icon-bar {
+		top: 18px;
+	}
+	.icon-bar:first-child + .icon-bar + .icon-bar + .icon-bar {
+		top: 23px;
+	}
+
+	.icon-bar:first-child,
+	.icon-bar:first-child + .icon-bar + .icon-bar + .icon-bar {
+		@include transition(opacity 0.3s ease-in-out);
+		@include opacity(0);
+	}
+	.icon-bar:first-child + .icon-bar,
+	.icon-bar:first-child + .icon-bar + .icon-bar {
+		@include transition(all 0.4s ease-in-out);
+	}
+	.icon-bar:first-child + .icon-bar {
+		@include transform(rotate(45deg));
+	}
+	.icon-bar:first-child + .icon-bar + .icon-bar {
+		@include transform(rotate(-45deg));
+	}
+
+	&.collapsed {
+		.icon-bar {
+			background: $brand-bright;
+			position: absolute;
+			margin: 0;
+		}
+
+		.icon-bar:first-child {
+			@include opacity(1);
+		}
+		.icon-bar:first-child + .icon-bar,
+		.icon-bar:first-child + .icon-bar + .icon-bar {
+			@include transform(rotate(0deg));
+		}
+		.icon-bar:first-child + .icon-bar + .icon-bar + .icon-bar {
+			@include opacity(1);
+		}
+	}
+}
+
+/* LOGO */
+.navbar-brand {
+	height: 56px;
+	padding: 0;
+}
+
+/* MAIN-MENU */
+#main-menu {
+	border: none;
+
+	&.collapsing,
+	&.collapse.in {
+		@include box-shadow(none);
+	}
+
+	/* MENU LIST */
 	.navbar-nav {
 		margin-top: 10px;
 
@@ -26,8 +104,13 @@
 			> a {
 				color: $brand-bright;
 				padding: 10px 15px;
-				@include font-lato-regular(1em, 1em, normal);
+				letter-spacing: 0.1em;
+				@include font-opensans-regular();
 				@include transition(all 0.5s);
+				
+				@media screen and (min-width: $screen-sm) and (max-width: $screen-md) {
+					font-size: 0.8em;
+				}
 
 				&:hover {
 					background-color: transparent;
@@ -37,28 +120,22 @@
 					margin-right: 0;
 				}
 			}
-		}
-	}
 
-	li.active {
-		background-color: transparent;
-		border: 2px solid $brand-bright;
-		color: $brand-secondary;
-		@include border-radius(4px);
-		@include transition(all 0.5s);
+			&.active {
+				background-color: transparent;
+				border: 2px solid $brand-bright;
+				color: $brand-secondary;
+				@include border-radius(4px);
+				@include transition(all 0.5s);
 
-		&:hover {
-			border: 2px solid $brand-primary;
+				&:hover {
+					border: 2px solid $brand-primary;
 
-			> a {
-				color: $brand-bright;
+					> a {
+						color: $brand-bright;
+					}
+				}
 			}
 		}
-	}
-
-	&.affix {
-		background-color: $brand-contrast;
-		position: fixed !important;
-		top: 0;
 	}
 }

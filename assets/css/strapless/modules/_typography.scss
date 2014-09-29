@@ -1,13 +1,22 @@
+// Cookie
 @include fontface-ttf('cookie', 'cookie/Cookie-Regular');
-@include fontface-ttf('lato-regular', 'lato/Lato-Regular');
-@include fontface-ttf('lato-hairline', 'lato/Lato-Hairline');
+@mixin font-cookie() {
+	font-family: 'cookie';
+}
 
-@mixin font-courgette($font-size: 1em, $line-height: 1em, $font-weight: 400) {
-	font: #{$font-weight} #{$font-size}/#{$line-height} 'cookie';
+// Lato fonts
+@include fontface('lato-regular', 'lato/lato-regular');
+@include fontface('lato-hairline', 'lato/lato-hairline');
+@mixin font-lato-regular() {
+	font-family: 'lato-regular';
 }
-@mixin font-lato-regular($font-size: 1em, $line-height: 1em, $font-weight: 400) {
-	font: #{$font-weight} #{$font-size}/#{$line-height} 'lato-regular';
+@mixin font-lato-hairline() {
+	font-family: 'lato-hairline';
 }
-@mixin font-lato-hairline($font-size: 1em, $line-height: 1em, $font-weight: 400) {
-	font: #{$font-weight} #{$font-size}/#{$line-height} 'lato-hairline';
+
+// Open-Sans fonts
+@include fontface('opensans-regular', 'open-sans/OpenSans-Regular');
+@mixin font-opensans-regular() {
+	font-family: 'opensans-regular';
 }
+

@@ -1,29 +1,48 @@
 .btn {
 	padding: 15px 35px;
+	&:active,
+	&:focus {
+		@include outline-style(none);
+	}
 }
 .btn-default {
-	background-color: $brand-primary;
+	background: transparent;
+	border: 1px solid $brand-primary;
+	color: $brand-primary;
+	margin-top: 40px;
 	text-transform: uppercase;
 	@include border-radius(4px);
-	@include font-lato-regular(1em, 1em, normal);
-}
-
-.btn-primary {
-	background-color: transparent;
-	border: 2px solid $brand-bright;
-	color: $brand-bright;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-
-	@include border-radius(4px);
-	@include font-lato-regular(1em, 1em, normal);
+	@include font-opensans-regular();
 	@include transition(all 0.5s);
 	@include opacity(0.7);
 
 	&:hover {
+		background: transparent;
+		border: 1px solid $brand-secondary;
+		color: $brand-secondary;
+		@include opacity(1);
+	}
+}
+
+.btn-primary {
+	background-color: transparent !important; // overwrite for bootstrap
+	border: 2px solid $brand-bright !important; // overwrite for bootstrap
+	color: $brand-bright !important; // overwrite for bootstrap
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	@include border-radius(4px);
+	@include font-opensans-regular();
+	@include transition(all 0.5s);
+	@include opacity(0.7);
+
+	&:hover,
+	&:active,
+	&:visited,
+	&:focus {
 		background-color: transparent;
-		border: 2px solid $brand-bright;
-		color: $brand-bright;
+		border: 2px solid $brand-bright; // overwrite for bootstrap
+		color: $brand-bright; // overwrite for bootstrap
 		@include opacity(1);
 	}
 }
@@ -33,7 +52,7 @@
 	background-color: transparent;
 	color: $brand-secondary;
 	padding: 0 3px 0 0;
-	@include font-courgette(2.5em, 1em, normal);
+	@include font-cookie();
 	@include transition(all 0.5s);
 	
 	&:before {

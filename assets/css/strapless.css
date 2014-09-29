@@ -1154,7 +1154,7 @@ html {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/bootstrap\/_scaffolding\.scss}line{font-family:\0000327}}
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "opensans-regular", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #5c5c5c;
@@ -1743,14 +1743,14 @@ pre {
     clear: both; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000311}}
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, section#mobiel .section-image, section#call-to-action .section-action, .col-lg-4, section#kenmerken .section-content, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, section#kenmerken .section-content, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, section#mobiel .section-content, section#call-to-action .section-content, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, section#over-ons .section-content, section .section-title, .col-sm-12, section#kenmerken .section-content, section#mobiel .section-image, section#mobiel .section-content, section#call-to-action .section-content, section#call-to-action .section-action, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, section#mobiel .section-image, section#call-to-action .section-action, .col-lg-4, section#kenmerken .section-content, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, section#kenmerken .section-content, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, section#mobiel .section-content, section#call-to-action .section-content, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, section .section-header, .col-sm-12, section#kenmerken .section-content, section#mobiel .section-image, section#mobiel .section-content, section#call-to-action .section-content, section#call-to-action .section-action, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000327}}
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, section#over-ons .section-content, section .section-title {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, section .section-header {
   float: left; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
@@ -1798,7 +1798,7 @@ pre {
   width: 91.66667%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
-.col-xs-12, section#over-ons .section-content, section .section-title {
+.col-xs-12, section .section-header {
   width: 100%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000355}}
@@ -6381,11 +6381,11 @@ button.close {
   .carousel-indicators {
     bottom: 20px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000314}}
-.clearfix:before, .clearfix:after {
+.clearfix:before, .switch:before, .clearfix:after, .switch:after {
   content: " ";
   display: table; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000319}}
-.clearfix:after {
+.clearfix:after, .switch:after {
   clear: both; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/bootstrap\/_utilities\.scss}line{font-family:\0000312}}
@@ -8822,7 +8822,7 @@ button.close {
  *	v1.3.3
  */
 /* clearfix */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\000037}}
 .owl-carousel .owl-wrapper:after {
   content: ".";
   display: block;
@@ -8832,26 +8832,26 @@ button.close {
   height: 0; }
 
 /* display none until init */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\0000316}}
 .owl-carousel {
   display: none;
   position: relative;
   width: 100%;
   -ms-touch-action: pan-y; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\0000322}}
 .owl-carousel .owl-wrapper {
   display: none;
   position: relative;
   -webkit-transform: translate3d(0px, 0px, 0px); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\0000327}}
 .owl-carousel .owl-wrapper-outer {
   overflow: hidden;
   position: relative;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\0000332}}
 .owl-carousel .owl-wrapper-outer.autoHeight {
   -webkit-transition: height 500ms ease-in-out;
   -moz-transition: height 500ms ease-in-out;
@@ -8859,17 +8859,17 @@ button.close {
   -o-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\0000340}}
 .owl-carousel .owl-item {
   float: left;
-  padding: 20px; }
+  padding: 20px 20px 0 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\0000344}}
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div {
   cursor: pointer; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\0000348}}
 .owl-controls {
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -8879,12 +8879,12 @@ button.close {
   -webkit-tap-highlight-color: transparent; }
 
 /* mouse grab icon */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\0000358}}
 .grabbing {
   cursor: url(../img/owl-carousel/grabbing.png) 8 8, move; }
 
 /* fix */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-carousel\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-main\.scss}line{font-family:\0000363}}
 .owl-carousel .owl-wrapper,
 .owl-carousel .owl-item {
   -webkit-backface-visibility: hidden;
@@ -8894,11 +8894,103 @@ button.close {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0); }
 
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\000036}}
+.owl-theme .owl-controls {
+  text-align: center; }
+
+/* Styling Next and Prev buttons */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\0000313}}
+.owl-theme .owl-controls .owl-buttons div {
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 5em;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  filter: Alpha(Opacity=50);
+  /*IE7 fix*/
+  opacity: 0.5;
+  position: absolute;
+  top: 130px; }
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\0000332}}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  filter: Alpha(Opacity=100);
+  /*IE7 fix*/
+  opacity: 1;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\0000337}}
+.owl-next {
+  right: -50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\0000340}}
+.owl-prev {
+  left: -50px; }
+
+/* Styling Pagination*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\0000346}}
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\0000351}}
+.owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  filter: Alpha(Opacity=50);
+  /*IE7 fix*/
+  opacity: 0.5;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #869791; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\0000364}}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  filter: Alpha(Opacity=100);
+  /*IE7 fix*/
+  opacity: 1; }
+
+/* If PaginationNumbers is true */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\0000372}}
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+  height: auto;
+  width: auto;
+  color: #FFF;
+  padding: 2px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px; }
+
+/* preloading images */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-theme\.scss}line{font-family:\0000384}}
+.owl-item.loading {
+  min-height: 150px;
+  background: url(../img/owl-carousel/AjaxLoader.gif) no-repeat center center; }
+
 /* 
  *  Owl Carousel CSS3 Transitions 
  *  v1.3.2
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-transitions\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-transitions\.scss}line{font-family:\000036}}
 .owl-origin {
   -webkit-perspective: 1200px;
   -webkit-perspective-origin-x: 50%;
@@ -8909,53 +9001,53 @@ button.close {
   perspective: 1200px; }
 
 /* fade */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-transitions\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-transitions\.scss}line{font-family:\0000316}}
 .owl-fade-out {
   z-index: 10;
   -webkit-animation: fadeOut .7s both ease;
   -moz-animation: fadeOut .7s both ease;
   animation: fadeOut .7s both ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-transitions\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-transitions\.scss}line{font-family:\0000322}}
 .owl-fade-in {
   -webkit-animation: fadeIn .7s both ease;
   -moz-animation: fadeIn .7s both ease;
   animation: fadeIn .7s both ease; }
 
 /* backSlide */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-transitions\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-transitions\.scss}line{font-family:\0000328}}
 .owl-backSlide-out {
   -webkit-animation: backSlideOut 1s both ease;
   -moz-animation: backSlideOut 1s both ease;
   animation: backSlideOut 1s both ease; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-transitions\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-transitions\.scss}line{font-family:\0000333}}
 .owl-backSlide-in {
   -webkit-animation: backSlideIn 1s both ease;
   -moz-animation: backSlideIn 1s both ease;
   animation: backSlideIn 1s both ease; }
 
 /* goDown */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-transitions\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-transitions\.scss}line{font-family:\0000339}}
 .owl-goDown-out {
   -webkit-animation: scaleToFade .7s ease both;
   -moz-animation: scaleToFade .7s ease both;
   animation: scaleToFade .7s ease both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-transitions\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-transitions\.scss}line{font-family:\0000344}}
 .owl-goDown-in {
   -webkit-animation: goDown .6s ease both;
   -moz-animation: goDown .6s ease both;
   animation: goDown .6s ease both; }
 
 /* scaleUp */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-transitions\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-transitions\.scss}line{font-family:\0000350}}
 .owl-fadeUp-in {
   -webkit-animation: scaleUpFrom .5s ease both;
   -moz-animation: scaleUpFrom .5s ease both;
   animation: scaleUpFrom .5s ease both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-transitions\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/_owl-transitions\.scss}line{font-family:\0000356}}
 .owl-fadeUp-out {
   -webkit-animation: scaleUpTo .5s ease both;
   -moz-animation: scaleUpTo .5s ease both;
@@ -9125,98 +9217,187 @@ button.close {
   to {
     opacity: 0;
     transform: scale(1.5); } }
-/*
-* 	Owl Carousel Owl Demo Theme 
-*	v1.3.3
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\000036}}
-.owl-theme .owl-controls {
-  margin-top: 10px;
-  text-align: center; }
-
-/* Styling Next and Prev buttons */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\0000313}}
-.owl-theme .owl-controls .owl-buttons div {
-  color: #FFF;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-  /*IE7 life-saver */
-  margin: 5px;
-  padding: 3px 10px;
-  font-size: 5em;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  filter: Alpha(Opacity=50);
-  /*IE7 fix*/
-  opacity: 0.5;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\000031}}
+.sidr {
+  background: #3a3a3a;
+  color: #e5dac6;
+  display: none;
   position: absolute;
-  top: 130px; }
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+  width: 260px;
+  overflow-x: none;
+  overflow-y: auto;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 15px; }
 
-/* Clickable class fix problem with hover on touch devices */
-/* Use it for non-touch hover action */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\0000332}}
-.owl-theme .owl-controls.clickable .owl-buttons div:hover {
-  filter: Alpha(Opacity=100);
-  /*IE7 fix*/
-  opacity: 1;
-  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000316}}
+.sidr .sidr-inner {
+  padding: 0 0 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\0000337}}
-.owl-next {
-  right: -50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000319}}
+.sidr .sidr-inner > p {
+  margin-left: 15px;
+  margin-right: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\0000340}}
-.owl-prev {
-  left: -50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000323}}
+.sidr.right {
+  left: auto;
+  right: -260px; }
 
-/* Styling Pagination*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\0000346}}
-.owl-theme .owl-controls .owl-page {
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-  /*IE7 life-saver */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000327}}
+.sidr.left {
+  left: -260px;
+  right: auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\0000351}}
-.owl-theme .owl-controls .owl-page span {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000331}}
+.sidr h1, .sidr h2, .sidr h3, .sidr h4, .sidr h5, .sidr h6 {
+  font-size: 11px;
+  font-weight: normal;
+  padding: 0 15px;
+  margin: 0 0 5px;
+  color: #333;
+  line-height: 24px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, white), color-stop(100%, #dfdfdf));
+  background-image: -webkit-linear-gradient(white, #dfdfdf);
+  background-image: -moz-linear-gradient(white, #dfdfdf);
+  background-image: -o-linear-gradient(white, #dfdfdf);
+  background-image: linear-gradient(white, #dfdfdf);
+  -webkit-box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.2); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000347}}
+.sidr p {
+  font-size: 13px;
+  margin: 0 0 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000351}}
+.sidr p a {
+  color: rgba(51, 51, 51, 0.9); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000354}}
+.sidr > p {
+  margin-left: 15px;
+  margin-right: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000358}}
+.sidr ul {
   display: block;
-  width: 12px;
-  height: 12px;
-  margin: 5px 7px;
-  filter: Alpha(Opacity=50);
-  /*IE7 fix*/
-  opacity: 0.5;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  background: #869791; }
+  margin: 0 0 15px;
+  padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\0000364}}
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span {
-  filter: Alpha(Opacity=100);
-  /*IE7 fix*/
-  opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000363}}
+.sidr ul li {
+  display: block;
+  margin: 0;
+  line-height: 48px;
+  border-top: 1px solid #565656;
+  border-bottom: 1px solid #141414; }
 
-/* If PaginationNumbers is true */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\0000372}}
-.owl-theme .owl-controls .owl-page span.owl-numbers {
-  height: auto;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000370}}
+.sidr ul li:hover,
+.sidr ul li.active,
+.sidr ul li.sidr-class-active {
+  border-top: none;
+  line-height: 49px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000376}}
+.sidr ul li:hover > a,
+.sidr ul li:hover > span,
+.sidr ul li.active > a,
+.sidr ul li.active > span,
+.sidr ul li.sidr-class-active > a,
+.sidr ul li.sidr-class-active > span {
+  color: #f86464;
+  background: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000385}}
+.sidr ul li a {
+  padding: 20px 15px;
+  display: block;
+  text-decoration: none;
+  color: #e5dac6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000391}}
+.sidr ul li ul {
+  border-bottom: none;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000395}}
+.sidr ul li ul li {
+  line-height: 40px;
+  font-size: 13px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\0000399}}
+.sidr ul li ul li:last-child {
+  border-bottom: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\00003102}}
+.sidr ul li ul li:hover,
+.sidr ul li ul li.active,
+.sidr ul li ul li.sidr-class-active {
+  border-top: none;
+  line-height: 41px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\00003108}}
+.sidr ul li ul li:hover > a,
+.sidr ul li ul li:hover > span,
+.sidr ul li ul li.active > a,
+.sidr ul li ul li.active > span,
+.sidr ul li ul li.sidr-class-active > a,
+.sidr ul li ul li.sidr-class-active > span {
+  color: #96d0d1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\00003116}}
+.sidr ul li ul li a, .sidr ul li ul li span {
+  color: rgba(51, 51, 51, 0.8);
+  padding-left: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\00003120}}
+.sidr form {
+  margin: 0 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\00003123}}
+.sidr label {
+  font-size: 13px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\00003126}}
+.sidr input[type="text"], .sidr input[type="password"], .sidr input[type="date"], .sidr input[type="datetime"], .sidr input[type="email"], .sidr input[type="number"], .sidr input[type="search"], .sidr input[type="tel"], .sidr input[type="time"], .sidr input[type="url"], .sidr textarea, .sidr select {
+  width: 100%;
+  font-size: 13px;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(51, 51, 51, 0.6);
+  display: block;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\00003145}}
+.sidr input[type=checkbox] {
   width: auto;
-  color: #FFF;
-  padding: 2px 10px;
-  font-size: 12px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px; }
+  display: inline;
+  clear: none; }
 
-/* preloading images */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/owl-carousel\/owl-theme\.scss}line{font-family:\0000384}}
-.owl-item.loading {
-  min-height: 150px;
-  background: url(../img/owl-carousel/AjaxLoader.gif) no-repeat center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\00003150}}
+.sidr input[type=button], .sidr input[type=submit] {
+  color: #f8f8f8;
+  background: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/sidr-menu\/sidr-light\.scss}line{font-family:\00003154}}
+.sidr input[type=button]:hover, .sidr input[type=submit]:hover {
+  background: rgba(51, 51, 51, 0.9); }
 
 /* ----------------------------------------------------------------------------------------
  * Base
@@ -9353,13 +9534,12 @@ dfn {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003137}}
 h1 {
-  font-size: 2em;
   margin: 0.67em 0; }
 
 /**
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003145}}
 mark {
   background: #ff0;
   color: #000; }
@@ -9367,14 +9547,14 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003154}}
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003162}}
 sub,
 sup {
   font-size: 75%;
@@ -9382,11 +9562,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003170}}
 sup {
   top: -0.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003174}}
 sub {
   bottom: -0.25em; }
 
@@ -9395,14 +9575,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003185}}
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003193}}
 svg:not(:root) {
   overflow: hidden; }
 
@@ -9411,14 +9591,14 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003204}}
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003212}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -9427,14 +9607,14 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003222}}
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003230}}
 code,
 kbd,
 pre,
@@ -9454,7 +9634,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003253}}
 button,
 input,
 optgroup,
@@ -9470,7 +9650,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003267}}
 button {
   overflow: visible; }
 
@@ -9480,7 +9660,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003278}}
 button,
 select {
   text-transform: none; }
@@ -9492,7 +9672,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003291}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -9505,7 +9685,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003303}}
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -9513,7 +9693,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003312}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -9523,7 +9703,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003323}}
 input {
   line-height: normal; }
 
@@ -9534,7 +9714,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003335}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -9547,7 +9727,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003347}}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -9557,7 +9737,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003358}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -9571,7 +9751,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003371}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -9579,7 +9759,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003380}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -9589,7 +9769,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003391}}
 legend {
   border: 0;
   /* 1 */
@@ -9599,7 +9779,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003400}}
 textarea {
   overflow: auto; }
 
@@ -9607,7 +9787,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003409}}
 optgroup {
   font-weight: bold; }
 
@@ -9616,17 +9796,17 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003420}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003425}}
 td,
 th {
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_base\.scss}line{font-family:\00003430}}
 p {
   line-height: 1.417em !important; }
 
@@ -9663,6 +9843,11 @@ p {
 /**
  * ----------------------------------------------------------------------------------------
  * Opacity
+ * ----------------------------------------------------------------------------------------
+ */
+/**
+ * ----------------------------------------------------------------------------------------
+ * Outline
  * ----------------------------------------------------------------------------------------
  */
 /**
@@ -10143,42 +10328,34 @@ p {
   font-style: normal; }
 @font-face {
   font-family: "lato-regular";
-  src: url("../fonts/lato/Lato-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+  src: url("../fonts/lato/lato-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/lato-regular.woff") format("woff"), url("../fonts/lato/lato-regular.ttf") format("truetype"), url("../fonts/lato/lato-regular.svg#lato-regular") format("svg"); }
 @font-face {
   font-family: "lato-hairline";
-  src: url("../fonts/lato/Lato-Hairline.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+  src: url("../fonts/lato/lato-hairline.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/lato-hairline.woff") format("woff"), url("../fonts/lato/lato-hairline.ttf") format("truetype"), url("../fonts/lato/lato-hairline.svg#lato-hairline") format("svg"); }
+@font-face {
+  font-family: "opensans-regular";
+  src: url("../fonts/open-sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-Regular.woff") format("woff"), url("../fonts/open-sans/OpenSans-Regular.ttf") format("truetype"), url("../fonts/open-sans/OpenSans-Regular.svg#opensans-regular") format("svg"); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\000031}}
 .btn {
   padding: 15px 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\000033}}
+  .btn:active, .btn:focus {
+    -moz-outline-style: none;
+    outline-style: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\000038}}
 .btn-default {
-  background-color: #f86464;
+  background: transparent;
+  border: 1px solid #f86464;
+  color: #f86464;
+  margin-top: 40px;
   text-transform: uppercase;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  font: normal 1em/1em "lato-regular"; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000311}}
-.btn-primary {
-  background-color: transparent;
-  border: 2px solid #e5dac6;
-  color: #e5dac6;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-  font: normal 1em/1em "lato-regular";
+  font-family: 'opensans-regular';
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -10190,8 +10367,44 @@ p {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
   filter: alpha(opacity=70);
   opacity: 0.7; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000323}}
-  .btn-primary:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000319}}
+  .btn-default:hover {
+    background: transparent;
+    border: 1px solid #96d0d1;
+    color: #96d0d1;
+    -webkit-opacity: 1;
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000327}}
+.btn-primary {
+  background-color: transparent !important;
+  border: 2px solid #e5dac6 !important;
+  color: #e5dac6 !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  font-family: 'opensans-regular';
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  -moz-opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  opacity: 0.7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000339}}
+  .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
     background-color: transparent;
     border: 2px solid #e5dac6;
     color: #e5dac6;
@@ -10202,37 +10415,50 @@ p {
     filter: alpha(opacity=100);
     opacity: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000350}}
 .btn-secondary {
   border: none;
   background-color: transparent;
   color: #96d0d1;
   padding: 0 3px 0 0;
-  font: normal 2.5em/1em "cookie";
+  font-family: 'cookie';
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000358}}
   .btn-secondary:before {
     content: "\00BB";
     margin-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_buttons\.scss}line{font-family:\0000363}}
   .btn-secondary:hover {
     color: #e5dac6; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_button-groups\.scss}line{font-family:\000032}}
-.btn-group-jumbotron .btn-default {
-  padding: 15px 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_button-groups\.scss}line{font-family:\000035}}
-.btn-group-jumbotron .btn:first-child {
-  margin-right: 20px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_button-groups\.scss}line{font-family:\000031}}
+.btn-group-jumbotron {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_button-groups\.scss}line{font-family:\000034}}
+  .btn-group-jumbotron .btn:first-child {
+    margin-right: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px; }
+    @media screen and (max-width: 353px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_button-groups\.scss}line{font-family:\000034}}
+      .btn-group-jumbotron .btn:first-child {
+        display: block;
+        margin: 20px auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_button-groups\.scss}line{font-family:\0000313}}
+  .btn-group-jumbotron .btn:first-child + .btn {
+    font-size: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_forms\.scss}line{font-family:\000031}}
+.contact-formulier {
+  max-width: 720px;
+  margin: 0 auto; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_jumbotron\.scss}line{font-family:\000031}}
 #home > .jumbotron {
@@ -10248,94 +10474,249 @@ p {
     #home > .jumbotron .container h1, #home > .jumbotron .l-body .l-viewport .l-section h1, .l-body .l-viewport #home > .jumbotron .l-section h1 {
       color: #e5dac6;
       margin-bottom: 25px;
-      font: 400 5em/1em "lato-hairline"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_jumbotron\.scss}line{font-family:\0000316}}
-    #home > .jumbotron .container p, #home > .jumbotron .l-body .l-viewport .l-section p, .l-body .l-viewport #home > .jumbotron .l-section p {
-      color: #cbc2b1;
-      font-size: 2em;
+      font-family: 'lato-hairline'; }
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_jumbotron\.scss}line{font-family:\0000311}}
+        #home > .jumbotron .container h1, #home > .jumbotron .l-body .l-viewport .l-section h1, .l-body .l-viewport #home > .jumbotron .l-section h1 {
+          font-family: 'lato-regular';
+          font-size: 1.4em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_jumbotron\.scss}line{font-family:\0000321}}
+    #home > .jumbotron .container h2, #home > .jumbotron .l-body .l-viewport .l-section h2, .l-body .l-viewport #home > .jumbotron .l-section h2 {
+      color: #f86464;
       margin-bottom: 40px;
-      font: 400 3em/1em "lato-hairline"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_jumbotron\.scss}line{font-family:\0000323}}
+      font-family: 'lato-hairline'; }
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_jumbotron\.scss}line{font-family:\0000321}}
+        #home > .jumbotron .container h2, #home > .jumbotron .l-body .l-viewport .l-section h2, .l-body .l-viewport #home > .jumbotron .l-section h2 {
+          font-size: 1em;
+          font-family: 'lato-regular'; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_jumbotron\.scss}line{font-family:\0000332}}
     #home > .jumbotron .container > *, #home > .jumbotron .l-body .l-viewport .l-section > *, .l-body .l-viewport #home > .jumbotron .l-section > * {
       margin-left: auto;
       margin-right: auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_list-groups\.scss}line{font-family:\000031}}
+.list-group {
+  margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_list-groups\.scss}line{font-family:\000035}}
+.list-group-item {
+  list-style: none; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\000031}}
 .navbar {
-  bottom: 0;
   padding-bottom: 10px;
   padding-top: 10px;
   margin: 0;
-  position: absolute;
+  position: fixed;
+  top: 0;
   width: 100%;
   height: 80px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  -webkit-transition: height 0.5s ease-in-out;
+  -moz-transition: height 0.5s ease-in-out;
+  -ms-transition: height 0.5s ease-in-out;
+  -o-transition: height 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000310}}
   .navbar.affix {
     background-color: #3a3a3a transparent !important;
     background-color: rgba(58, 58, 58, 0.9) !important; }
+  @media screen and (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000314}}
-  .navbar .navbar-brand {
-    height: 56px;
-    padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000319}}
-  .navbar .navbar-nav {
+    .navbar.menu-open {
+      background: #3a3a3a;
+      height: 100%; } }
+
+/* TOGGLE */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000323}}
+.navbar-toggle {
+  width: 44px;
+  height: 47px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000326}}
+  .navbar-toggle .icon-bar {
+    background: #f86464;
+    position: absolute;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000332}}
+  .navbar-toggle .icon-bar:first-child {
+    top: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000335}}
+  .navbar-toggle .icon-bar:first-child + .icon-bar {
+    top: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000338}}
+  .navbar-toggle .icon-bar:first-child + .icon-bar + .icon-bar {
+    top: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000341}}
+  .navbar-toggle .icon-bar:first-child + .icon-bar + .icon-bar + .icon-bar {
+    top: 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000345}}
+  .navbar-toggle .icon-bar:first-child,
+  .navbar-toggle .icon-bar:first-child + .icon-bar + .icon-bar + .icon-bar {
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-opacity: 0;
+    -khtml-opacity: 0;
+    -moz-opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000350}}
+  .navbar-toggle .icon-bar:first-child + .icon-bar,
+  .navbar-toggle .icon-bar:first-child + .icon-bar + .icon-bar {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000354}}
+  .navbar-toggle .icon-bar:first-child + .icon-bar {
+    -webkit-transform: rotate(45deg);
+    /* Opera, Chrome, and Safari */
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    transform: rotate(45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000357}}
+  .navbar-toggle .icon-bar:first-child + .icon-bar + .icon-bar {
+    -webkit-transform: rotate(-45deg);
+    /* Opera, Chrome, and Safari */
+    -ms-transform: rotate(-45deg);
+    /* IE 9 */
+    transform: rotate(-45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000362}}
+  .navbar-toggle.collapsed .icon-bar {
+    background: #e5dac6;
+    position: absolute;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000368}}
+  .navbar-toggle.collapsed .icon-bar:first-child {
+    -webkit-opacity: 1;
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000371}}
+  .navbar-toggle.collapsed .icon-bar:first-child + .icon-bar,
+  .navbar-toggle.collapsed .icon-bar:first-child + .icon-bar + .icon-bar {
+    -webkit-transform: rotate(0deg);
+    /* Opera, Chrome, and Safari */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000375}}
+  .navbar-toggle.collapsed .icon-bar:first-child + .icon-bar + .icon-bar + .icon-bar {
+    -webkit-opacity: 1;
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1; }
+
+/* LOGO */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000382}}
+.navbar-brand {
+  height: 56px;
+  padding: 0; }
+
+/* MAIN-MENU */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000388}}
+#main-menu {
+  border: none;
+  /* MENU LIST */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000391}}
+  #main-menu.collapsing, #main-menu.collapse.in {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000397}}
+  #main-menu .navbar-nav {
     margin-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000322}}
-    .navbar .navbar-nav > li {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\00003100}}
+    #main-menu .navbar-nav > li {
       border: 2px solid transparent;
       margin-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000326}}
-      .navbar .navbar-nav > li > a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\00003104}}
+      #main-menu .navbar-nav > li > a {
         color: #e5dac6;
         padding: 10px 15px;
-        font: normal 1em/1em "lato-regular";
+        letter-spacing: 0.1em;
+        font-family: 'opensans-regular';
         -webkit-transition: all 0.5s;
         -moz-transition: all 0.5s;
         -ms-transition: all 0.5s;
         -o-transition: all 0.5s;
         transition: all 0.5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000332}}
-        .navbar .navbar-nav > li > a:hover {
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\00003104}}
+          #main-menu .navbar-nav > li > a {
+            font-size: 0.8em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\00003115}}
+        #main-menu .navbar-nav > li > a:hover {
           background-color: transparent;
           color: #f86464; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000336}}
-        .navbar .navbar-nav > li > a:first-child {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\00003119}}
+        #main-menu .navbar-nav > li > a:first-child {
           margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000343}}
-  .navbar li.active {
-    background-color: transparent;
-    border: 2px solid #e5dac6;
-    color: #96d0d1;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000350}}
-    .navbar li.active:hover {
-      border: 2px solid #f86464; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000353}}
-      .navbar li.active:hover > a {
-        color: #e5dac6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\0000359}}
-  .navbar.affix {
-    background-color: #3a3a3a;
-    position: fixed !important;
-    top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\00003124}}
+      #main-menu .navbar-nav > li.active {
+        background-color: transparent;
+        border: 2px solid #e5dac6;
+        color: #96d0d1;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\00003131}}
+        #main-menu .navbar-nav > li.active:hover {
+          border: 2px solid #f86464; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_navs\.scss}line{font-family:\00003134}}
+          #main-menu .navbar-nav > li.active:hover > a {
+            color: #e5dac6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_panels\.scss}line{font-family:\000033}}
+.panel-default {
+  border: none;
+  margin: 0 auto;
+  max-width: 280px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_panels\.scss}line{font-family:\000038}}
+  .panel-default .panel-heading {
+    background: #96d0d1;
+    padding: 20px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_panels\.scss}line{font-family:\0000313}}
+    .panel-default .panel-heading h3 {
+      color: #3a3a3a;
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_panels\.scss}line{font-family:\0000319}}
+  .panel-default .panel-body .list-group {
+    max-width: 320px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_panels\.scss}line{font-family:\0000322}}
+    .panel-default .panel-body .list-group .list-group-item {
+      border: none;
+      padding-left: 50px;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_panels\.scss}line{font-family:\0000327}}
+      .panel-default .panel-body .list-group .list-group-item .fa,
+      .panel-default .panel-body .list-group .list-group-item .icon {
+        color: #5cb85c;
+        font-size: 1.3em;
+        left: 15px;
+        margin-right: 20px;
+        position: absolute;
+        top: 10px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\000031}}
 section {
-  /* DEFAULT SECTION TITLE */ }
+  /* DEFAULT SECTION header */ }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\000033}}
   section#kenmerken, section#portfolio, section#mobiel, section#tarieven, section#over-ons, section#call-to-action, section#contact {
     padding-bottom: 100px;
@@ -10352,12 +10733,21 @@ section {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000323}}
   section#kenmerken .section-content {
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000329}}
-    section#kenmerken .section-content:nth-child(n+4) {
-      margin-top: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000333}}
+    @media screen and (min-width: 320px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000330}}
+      section#kenmerken .section-content:nth-child(n+2) {
+        margin-top: 40px; } }
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000335}}
+      section#kenmerken .section-content:nth-child(n+3) {
+        margin-top: 60px; } }
+    @media screen and (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000340}}
+      section#kenmerken .section-content:nth-child(n+5) {
+        margin-top: 60px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000345}}
     section#kenmerken .section-content span {
-      border: 4px solid #f86464;
+      border: 4px solid #96d0d1;
       color: #f86464;
       cursor: default;
       display: inline-block;
@@ -10378,7 +10768,7 @@ section {
       -ms-transition: color 0.3s;
       -o-transition: color 0.3s;
       transition: color 0.3s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000359}}
       section#kenmerken .section-content span:before {
         display: block;
         font-size: 32pt;
@@ -10389,7 +10779,7 @@ section {
         speak: none;
         text-transform: none;
         -webkit-font-smoothing: antialiased; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000370}}
       section#kenmerken .section-content span:after {
         background: #f86464;
         content: '';
@@ -10422,10 +10812,10 @@ section {
         -webkit-transition: -webkit-transform .2s,opacity .3s;
         -moz-transition: -moz-transform .2s,opacity .3s;
         transition: transform .2s,opacity .3s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000391}}
     section#kenmerken .section-content:hover span {
-      color: #e5dac6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000382}}
+      color: #3a3a3a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000394}}
       section#kenmerken .section-content:hover span:after {
         -webkit-transform: scale(1);
         /* Opera, Chrome, and Safari */
@@ -10438,51 +10828,80 @@ section {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
         filter: alpha(opacity=100);
         opacity: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003102}}
   section#portfolio {
-    background-color: #5c5c5c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000394}}
-    section#portfolio .section-title h2 {
-      color: #e5dac6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\0000397}}
-      section#portfolio .section-title h2:before, section#portfolio .section-title h2:after {
+    background-color: #3a3a3a;
+    padding-bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003107}}
+    section#portfolio .section-header h2 {
+      color: #f86464; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003110}}
+      section#portfolio .section-header h2:before, section#portfolio .section-header h2:after {
         background-color: #e5dac6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003115}}
+    section#portfolio .section-header p {
+      color: #e5dac6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003119}}
     section#portfolio .section-portfolio {
       float: none;
       padding: 0 50px;
       max-width: 960px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003137}}
   section#tarieven {
-    background-color: #5c5c5c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003125}}
-    section#tarieven .section-title h2 {
-      color: #e5dac6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003128}}
-      section#tarieven .section-title h2:before, section#tarieven .section-title h2:after {
+    background-color: #3a3a3a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003141}}
+    section#tarieven .section-header h2 {
+      color: #f86464; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003144}}
+      section#tarieven .section-header h2:before, section#tarieven .section-header h2:after {
         background-color: #e5dac6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003149}}
+    section#tarieven .section-header p {
+      color: #e5dac6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003153}}
     section#tarieven .section-content {
       margin: 0 auto;
       max-width: 600px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003140}}
-  section#over-ons .section-content {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003158}}
+  section#over-ons {
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003161}}
+    section#over-ons .section-header {
+      margin-bottom: 0;
+      padding-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003165}}
+    section#over-ons .section-content {
+      margin: 0 auto !important;
+      max-width: 800px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003170}}
   section#call-to-action {
-    background-color: #96d0d1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003162}}
-  section .section-title {
-    text-align: center;
+    background-color: #3a3a3a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003177}}
+    section#call-to-action .section-content h2 {
+      color: #f86464;
+      font-family: 'lato-hairline'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003181}}
+    section#call-to-action .section-content p {
+      color: #96d0d1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003195}}
+  section .section-header {
     margin-bottom: 40px;
     padding-bottom: 15px;
-    position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003169}}
-    section .section-title h2 {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003201}}
+    section .section-header h2 {
       color: #3a3a3a;
-      font: 400 2.5em/1em "lato-regular"; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003173}}
-      section .section-title h2:before, section .section-title h2:after {
+      letter-spacing: .1em;
+      margin-bottom: 40px;
+      position: relative;
+      font-family: 'lato-hairline'; }
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003201}}
+        section .section-header h2 {
+          font-size: 1.4em;
+          font-family: 'lato-regular'; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003213}}
+      section .section-header h2:before, section .section-header h2:after {
         background-color: #3a3a3a;
         content: ' ';
         display: block;
@@ -10491,12 +10910,26 @@ section {
         position: absolute;
         width: 100px;
         height: 1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003183}}
-      section .section-title h2:before {
-        bottom: 3px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003186}}
-      section .section-title h2:after {
-        bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003223}}
+      section .section-header h2:before {
+        bottom: -10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003226}}
+      section .section-header h2:after {
+        bottom: -15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003230}}
+    section .section-header p {
+      margin: 20px auto 0 auto;
+      max-width: 720px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003236}}
+  section .section-content {
+    padding: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003239}}
+    section .section-content h3 {
+      margin-top: 0;
+      font-family: 'opensans-regular'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/modules\/_sections\.scss}line{font-family:\00003243}}
+    section .section-content p {
+      font-family: 'opensans-regular'; }
 
 /**
  * ----------------------------------------------------------------------------------------
@@ -10532,3 +10965,100 @@ section {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/_state\.scss}line{font-family:\0000323}}
 .s-cursor-pointer {
   cursor: pointer; }
+
+/* ============================================================
+  SWITCH
+============================================================ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\000034}}
+.switch {
+  margin: 30px auto;
+  width: 152px; }
+
+/* ============================================================
+  COMMON
+============================================================ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\0000313}}
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\0000318}}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* ============================================================
+  SWITCH 1 - ROUND
+============================================================ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\0000332}}
+input.cmn-toggle-round + label {
+  background-color: #dddddd;
+  padding: 2px;
+  width: 75px;
+  height: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\0000338}}
+input.cmn-toggle-round + label:before, input.cmn-toggle-round + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\0000346}}
+input.cmn-toggle-round + label:before {
+  background-color: #f1f1f1;
+  right: 1px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -ms-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\0000352}}
+input.cmn-toggle-round + label:after {
+  background-color: #fff;
+  width: 40px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: margin 0.4s;
+  -moz-transition: margin 0.4s;
+  -ms-transition: margin 0.4s;
+  -o-transition: margin 0.4s;
+  transition: margin 0.4s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\0000359}}
+input.cmn-toggle-round:checked + label:before {
+  background-color: #8ce196; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\0000362}}
+input.cmn-toggle-round:checked + label:after {
+  margin-left: 33px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/macmini\/Sites\/littlebigagency\/assets\/css\/strapless\/third-party\/cmn-toggle\/_cmn-toggle\.scss}line{font-family:\0000365}}
+.cmn-toggle-1 {
+  display: none; }

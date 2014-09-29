@@ -1,9 +1,16 @@
 .btn-group-jumbotron {
-	.btn-default {
-		padding: 15px 30px;
-	}
+	text-align: center;
+
 	.btn:first-child {
 		margin-right: 20px;
 		@include border-radius(4px);
+
+		@media screen and (max-width: 353px) {
+			display: block;
+			margin: 20px auto;
+		}
+	}
+	.btn:first-child + .btn {
+		font-size: 2em;
 	}
 }

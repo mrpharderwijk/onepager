@@ -67,6 +67,15 @@
  * Fontface
  * ----------------------------------------------------------------------------------------
  */
+@mixin fontface($fontname, $fontfile) {
+  @font-face {
+    font-family: $fontname;
+    src: url('../fonts/#{$fontfile}.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/#{$fontfile}.woff') format('woff'), 
+        url('../fonts/#{$fontfile}.ttf')  format('truetype'),
+        url('../fonts/#{$fontfile}.svg##{$fontname}') format('svg');
+  }
+}
 @mixin fontface-eot($fontname, $fontfile) {
   @font-face {
     font-family: $fontname;
@@ -114,6 +123,17 @@
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{($value*100)})";
           filter: alpha(opacity=#{($value*100)});
           opacity: $value;
+}
+
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * Outline
+ * ----------------------------------------------------------------------------------------
+ */
+@mixin outline-style($type) {
+  -moz-outline-style: $type;
+       outline-style: $type;  
 }
 
 
