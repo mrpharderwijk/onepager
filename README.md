@@ -1,4 +1,4 @@
-strapless
+OnePager
 =========
 
-Personal boilerplate jQuery/Bootstrap/Sass. The CSS consist of the SMACSS way. You can find more about this CSS 'architecture' here https://smacss.com/...
+Simple one page website build with HTML5, CSS(3) en SASS. I've use Twitter Bootstrap as a third-party front-end framework. The SASS consist of the SMACSS way. Besides that I've used Owl-carousel since it's my favourite responsive carousel. 
